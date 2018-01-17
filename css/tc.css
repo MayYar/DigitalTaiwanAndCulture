@@ -1,0 +1,74 @@
+* {
+  font-family: Microsoft JhengHei,MingLiU,sans-serif!important;
+}
+header {
+  background-image: none;
+  background-color: black!important;
+  height: 100%;
+}
+video#bgvid {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 100%;
+    z-index: 10;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+    filter: blur(40px) grayscale(80%);
+    -webkit-filter: blur(40px) grayscale(80%);
+    -ms-filter: blur(40px) grayscale(80%);
+}
+section {
+  /*background-color: #999999!important;*/
+}
+footer {
+  position: relative;
+  z-index: 20;
+  color: white;
+  background-color: #2E3133;
+  bottom: 0;
+}
+.team-member {
+  height: 200px;
+}
+.container {
+  position: relative;
+  z-index: 20;
+}
+.intro-text {
+  text-shadow: 1px 2px 0px black;
+}
+.section-heading {
+  margin-bottom: 32px!important;
+}
+.timeline-image {
+  left: calc(50% - 30px)!important;
+  width: 230px!important;
+  height: 230px!important;
+}
+.img-responsive {
+  height: 100%!important;
+}
+#img-now, #img-past {
+  height: 100%;
+  width: 100%;
+}
+#location-title {
+  display: inline;
+}
+#location-author {
+  padding-left: 8px;
+}
+#location-description {
+  margin-top: 24px;
+  line-height: 2em;
+  font-size: 16px;
+  text-align: justify;
+}
